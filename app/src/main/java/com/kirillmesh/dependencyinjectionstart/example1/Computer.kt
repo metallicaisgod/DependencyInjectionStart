@@ -1,6 +1,6 @@
 package com.kirillmesh.dependencyinjectionstart.example1
 
-class Computer(
+class Computer (
     val monitor: Monitor,
     val systemBlock: SystemBlock,
     val keyboard: Keyboard,

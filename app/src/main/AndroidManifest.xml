@@ -4,6 +4,7 @@
 
     <application
         android:allowBackup="true"
+        android:name=".example2.ExampleApp"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
@@ -13,7 +14,7 @@
         android:theme="@style/Theme.DependencyInjectionStart"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".example2.presentation.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,6 +26,7 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+        <activity android:name="com.kirillmesh.dependencyinjectionstart.example2.presentation.MainActivity2" />
     </application>
 
 </manifest>

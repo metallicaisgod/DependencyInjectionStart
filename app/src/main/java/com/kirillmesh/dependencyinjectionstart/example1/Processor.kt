@@ -1,4 +1,4 @@
 package com.kirillmesh.dependencyinjectionstart.example1
 
-class Processor {
+class Processor{
 }
