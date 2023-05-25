@@ -4,9 +4,8 @@ import android.content.Context
 import com.kirillmesh.dependencyinjectionstart.example2.presentation.MainActivity
 import dagger.BindsInstance
 import dagger.Component
-import javax.inject.Singleton
 
-@Singleton
+@ApplicationScope
 @Component(modules = [DomainModule::class, DataModule::class])
 interface ApplicationComponent {
 
